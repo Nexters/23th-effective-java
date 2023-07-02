@@ -4,9 +4,8 @@
 ### 책
 
 Effective Java 3/E
-![image](https://github.com/Nexters/23th-effective-java/assets/76773202/e789f7cf-61bc-4733-9d39-be6cbc6e2c70)
 
-[이펙티브 자바 Effective Java 3/E - YES24](https://www.yes24.com/Product/Goods/65551284)
+<img width="300" src="https://github.com/Nexters/23th-effective-java/assets/76773202/e789f7cf-61bc-4733-9d39-be6cbc6e2c70"> </img>
 
 
 ### 스터디 맴버
@@ -19,7 +18,7 @@ Effective Java 3/E
 
 
 ### 모임 시간
-- 금요일 평일 저녁 8시 ~ 9시
+- 금요일 평일 저녁 8시 ~ 9시 30분
 - 온라인 (캠on)
 
 
@@ -45,11 +44,11 @@ Effective Java 3/E
 
 ### 일정
 5명이 * 1인당 2개씩 * 8주동안 = 80 items
-1주차: ~10 items
-2주차: ~20 items
-3주차: ~30 items
-4주차: ~40 items
-5주차: ~50 items
-6주차: ~60 items
-7주차: ~70 items
-8주차: ~80 items
+- 1주차: ~10 items
+- 2주차: ~20 items
+- 3주차: ~30 items
+- 4주차: ~40 items
+- 5주차: ~50 items
+- 6주차: ~60 items
+- 7주차: ~70 items
+- 8주차: ~80 items
