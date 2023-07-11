@@ -4,7 +4,7 @@
 ### 책
 
 Effective Java 3/E
-
+[공식 Github](https://github.com/WegraLee/effective-java-3e-source-code)
 <img width="300" src="https://github.com/Nexters/23th-effective-java/assets/76773202/e789f7cf-61bc-4733-9d39-be6cbc6e2c70"> </img>
 
 
