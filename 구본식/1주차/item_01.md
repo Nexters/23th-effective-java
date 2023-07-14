@@ -1,5 +1,6 @@
 # 생성자 대신 정적 팩터리 메서드를 고려하라.
 클래스를 생성자를 클라이언트에게 제공할때는 public 생성자만 제공하기보다는 기본 생성자와 함께 정적 팩터리 메서드를 제공할 수 있다.
+
 그럼 정적 팩터리 메서드가 기본 생성자에 비해 장/단점을 알아보겠다.
 
 ## 장점
@@ -7,8 +8,8 @@
 한 클래스내에서 여러 생성자가 존재할 때, 정적 팩터리 메서드로 이를 정의하고 각각의 차이점을 들어내는 이름을 짓는것이 좋다.
 
 ```java
-    BigInteger name1 = new BigInteger(2, 5, random);
-    BigInteger name2 = BigInteger.probablePrime(2, random);
+BigInteger name1 = new BigInteger(2, 5, random);
+BigInteger name2 = BigInteger.probablePrime(2, random);
 ```
 random 범위 중 값이 소수인 BigIntger 클래스를 생성하는 2개의 생성자 모습이다. 아래의 생성자가 소수를 반환한다는 의미가 명확한 것을 볼 수 있다.
 
@@ -28,12 +29,12 @@ random 범위 중 값이 소수인 BigIntger 클래스를 생성하는 2개의 �
 이 구현체 대부분을 인스턴스 불가 클래스인 java.util.Collections 에서 정적 팩터리 메서드를 통해 얻도록 되어있다.
 
 ```java
-    public static <T> Collection<T> synchronizedCollection(Collection<T> c) {
-        return new SynchronizedCollection<>(c);
-    }
+public static <T> Collection<T> synchronizedCollection(Collection<T> c) {
+    return new SynchronizedCollection<>(c);
+}
 
-    public static <T> Set<T> synchronizedSet(Set<T> s) {
-        return new SynchronizedSet<>(s);
+public static <T> Set<T> synchronizedSet(Set<T> s) {
+    return new SynchronizedSet<>(s);
 }
 ```
 java.util.Collection 클래스에 있는 자바 컬렉션 프레임워크의 인터페이스 구현체를 얻는 정적 팩터리 메서드 예시이다.
@@ -68,7 +69,7 @@ java.util.Collection 클래스에 있는 자바 컬렉션 프레임워크의 인
     }
 ```
 
-### 5. 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다.
+### 5. 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도된다.
 
 서비스 제공자 프레임워크(servide provider framework)를 만드는 기초가 되며, 대표적인 예시로는 JDBC 프레임워크가 있다.
 서비스 제공자 프레임워크는 아래 3가지 핵심 컴포넌트로 구성된다.
