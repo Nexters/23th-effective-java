@@ -36,7 +36,7 @@ public class Stack {
 }
 ```
 
-![img.png](item_07_스택_예시_사진.png)
+![img.png](images/item_07_스택_예시_사진.png)
 
 - 스택에서 꺼내진 객체들을 가비지 컬렉터가 회수하지 않는다.
     - 다 쓴 참조(obsolete reference)를 여전히 가지고 있기 때문

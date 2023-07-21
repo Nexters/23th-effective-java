@@ -43,7 +43,7 @@
     - 가비지 컬렉터는 자바 객체가 아니라 그 존재를 모름
 
 ### try-with-resources
-![img.png](item_08_try-with-resources_코드_사진.png)
+![img.png](images/item_08_try-with-resources_코드_사진.png)
 
 - 이런 식으로 코드를 짜면 된다.
 - try-with-resources를 사용하지 않는 코드에서는 System.exit을 호출할 때 청소가 이뤄진다는 보장은 없다.
