@@ -13,7 +13,7 @@ Effective Java 3/E
 - [천진우](https://github.com/JinuCheon)
 - [강용수](https://github.com/emost22)
 - [맹순영](https://github.com/symaeng98)
-- [Bon](https://github.com/BonSik-Koo)
+- [구본식](https://github.com/BonSik-Koo)
 - [강승현](https://github.com/code5753)
 
 
