@@ -3,7 +3,7 @@
 스트림은 내부 반복자를 사용하므로 병렬 처리가 쉽다
 
 ### 스트림 구조
-![img.png](images/stream.jpeg)
+![img](images/stream.jpeg)
 
 생성 -> 중간연산 -> 최종연산
 
